@@ -28,7 +28,7 @@ const TripsClient: React.FC<TripsClientProps> = ({
 
     axios.delete(`/api/reservations/${id}`)
     .then(() => {
-      toast.success('Reservation cancelled');
+      toast.success('Reservation cancelled and ₹200 is the cancellation fee');
       router.refresh();
     })
     .catch((error) => {
