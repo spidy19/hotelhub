@@ -68,6 +68,23 @@ const ListingReservation: React.FC<
           flex-row 
           items-center 
           justify-between
+          text-lg
+        "
+      >
+        <div>
+          Payment mode:
+        </div>
+        <div>
+          Cash
+        </div>
+      </div>
+      <div 
+        className="
+          p-4 
+          flex 
+          flex-row 
+          items-center 
+          justify-between
           font-semibold
           text-lg
         "
